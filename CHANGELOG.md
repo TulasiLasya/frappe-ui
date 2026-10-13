@@ -1,5 +1,17 @@
 # frappe-ui
 
+## 1.0.2
+
+### Patch Changes
+
+- MobileShell: in an installed PWA on iOS 26, the tab bar now reaches the bottom
+  edge and clears the home indicator by the safe-area inset, without a strip of
+  page background below it (fix).
+  [#1284](https://github.com/frappe/frappe-ui/pull/1284)
+- Vite plugin: an app linked into a bench's `apps/` from another folder now
+  builds and runs in dev; tools such as Pilot set `FRAPPE_BENCH_PATH` to the
+  bench (fix). [#1283](https://github.com/frappe/frappe-ui/pull/1283)
+
 ## 1.0.1
 
 ### Patch Changes
